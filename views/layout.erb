@@ -2,15 +2,16 @@
 
 <html>
 <head>
-	<title><% @title + ' | Instagram API' %></title>
-	<link rel="stylesheet" type="text/css" href="/reset.css"></link>
-	<link rel="stylesheet" type="text/css" href="/style.css"></link>
+  <title><%= @title + ' | Instagram API' %></title>
+  <link rel="stylesheet" type="text/css" href="/reset.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 <body>
+  
+  <h1><a href="/">The PhotoBomb</a></h1>
+  <h2>'cause photos are nice.</h2>
 
-	<h1><a href="/">The PhotoBomb</a></h1>
-	<h2>'cause photos are nice.</h2>
+  <%= yield %>
 
-	<%= yield %>
 </body>
 </html>
